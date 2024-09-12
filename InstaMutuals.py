@@ -6,7 +6,7 @@ def download_profile_info(username):
     L = instaloader.Instaloader()
 
     try:
-        L.login("w_startswith_d", "iamafailure101")
+        L.login("your_username", "your_password")
         profile = instaloader.Profile.from_username(L.context, username)
         main_folder = f"{username}_data"
         os.makedirs(main_folder, exist_ok=True)
