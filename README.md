@@ -49,3 +49,28 @@ This Python script uses the [Instaloader](https://github.com/instaloader/instalo
 ```bash
 Enter the first username: user1
 Enter the second username: user2
+
+```
+
+## Output:
+
+- `user1_data/followers.txt`
+- `user1_data/following.txt`
+- `user2_data/followers.txt`
+- `user2_data/following.txt`
+- `user1_and_user2_mutuals/mutual_followers.txt`
+- `user1_and_user2_mutuals/mutual_followings.txt`
+
+## Notes
+
+- **Instagram Rate Limits:** Instagram may impose rate limits, so avoid making too many requests in a short time.
+- **Privacy:** Make sure you comply with Instagram's privacy policies and only use this script for ethical purposes.
+
+## Contributing
+
+Feel free to fork this repository and submit pull requests with improvements or additional features!
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
